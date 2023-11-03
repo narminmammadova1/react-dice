@@ -1,0 +1,23 @@
+/* .dice {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rolling img {
+    animation: roll 1s infinite;
+  }
+  
+  @keyframes roll {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(90deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    75% {
+      transform: rotate(270deg);
+    }
+  } */
