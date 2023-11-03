@@ -26,7 +26,7 @@ export const Dicecards = () => {
 
   const handleRoll = () => {
     setLoading(true);
-
+console.log("ffffffff");
     setTimeout(() => {
       const num1 = Math.ceil(Math.random() * 6);
       const num2 = Math.ceil(Math.random() * 6);
@@ -44,7 +44,8 @@ export const Dicecards = () => {
       <h1>Dice Game</h1>
       <img className={styles.rolling} src={diceData.diceImg1} alt="Zar 1" />
       <img className={styles.rolling} src={diceData.diceImg2} alt="Zar 2" />
-      <Button loading={loading} handleRoll={handleRoll} />
+      <Button title=  {loading ? "Rolling" : "Roll"} 
+   onClick={handleRoll} />
 
     </div>
   );
