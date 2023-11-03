@@ -18,7 +18,7 @@ const [back,setBack]=useState(0)
     else{setBack(back+1) 
        }
    
-    setShowText(`cemi ${front + back}, onhisse ${front}, arxahisse ${back}`);
+    setShowText(`total: ${front + back}, front: ${front}, back: ${back}`);
 
 
 }
