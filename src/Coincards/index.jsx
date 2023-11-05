@@ -11,6 +11,7 @@ export const Coincards = () => {
   const [showText, setShowText] = useState();
 const [front,setFront]=useState(0)
 const [back,setBack]=useState(0)
+
   const handleClick = () => {
     setShowCoin(!showCoin);
     if(showCoin){  setFront(front+1)
