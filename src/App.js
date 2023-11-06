@@ -2,6 +2,7 @@ import './App.css';
 import { Coincards } from './Coincards';
 import { Dicecards } from './Dicecards';
 import{Colors} from './Colors';
+import { Formdiv } from './Formdiv';
 function App() {
 
   
@@ -11,8 +12,9 @@ function App() {
     <hr/>
    <Coincards/>
    <hr/>
-
 <Colors/>
+<hr/>
+<Formdiv/>
     </div>
   );
 }
